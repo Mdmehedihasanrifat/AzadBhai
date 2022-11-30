@@ -1,0 +1,22 @@
+
+#bb{
+    background: #1d2124;
+    opacity: .95;
+
+}
+
+#Education{
+    width: 100%;
+    opacity: .95;
+}
+.card-img{
+    border-radius: 5%;
+}
+
+.top {
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px));
+}
+.bottom {
+    clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
+    margin-top: -40px;
+}
